@@ -45,3 +45,7 @@ function solution(input, markers) {
     }
     return newString;
 }
+
+
+
+//when you copy paste/download/glone the challange will outmatically save it in good order for interpretation
