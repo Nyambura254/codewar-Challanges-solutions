@@ -1,3 +1,4 @@
+//programing what is done behide server on filter search
 Array.prototype.filter = function(fn) {
     const newArray = [];
     for (let i = 0; i < this.length; i++) {
