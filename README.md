@@ -48,4 +48,4 @@ function solution(input, markers) {
 
 
 
-//when you copy paste/download/glone the challange will outmatically save it in good order for interpretation
+//when you copy paste/download/glone the challange will outmatically 
