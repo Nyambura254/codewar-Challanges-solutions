@@ -27,9 +27,9 @@ function josephus(items, k) {
     let result = [];
     while (items.length > 0) {
         for (let i = 0; i < items.length; i++) {
-            if (++count % k === 0) {
-                result[result.length] = items[i];
-                items.splice(i--, 1);
+            if (++count % k === 0) { //our count start at 0,we increment it....the % is what we have in our sequence[...] and k is what we want to be sorted and that person to kill himself
+                result[result.length] = items[i]; //result.length should be equal as our sequence item[i]
+                items.splice(i--, 1); //splice remove the last value sorted out
             }
         }
     }
@@ -37,7 +37,7 @@ function josephus(items, k) {
 }
 console.log(josephus([1, 2, 3, 4, 5, 6, 7], 3));
 
-/*[1,2,3,4,5,6,7]=>3-----------------[3]
+/*[1,2,4,5,6,7]=>3-----------------[3]
 [1,2,4,5,6,7]=>6--------------------[3,6]
 [1,2,4,5,7]=>2----------------------[3,6,2]
 [1,4,5,7]=>7------------------------[3,6,2,7]
