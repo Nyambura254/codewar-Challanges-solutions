@@ -78,3 +78,13 @@ console.log(sortGiftCode('gwqieeudnd'));
 // function sortGiftCode(code){
 //     return [...code].sort().join('');
 //   }
+
+
+//example 13
+// function sortGiftCode(code){
+//     var $array = [];
+//     for (var i = 0; i < code.length; i++) {
+//       $array[code.charCodeAt(i)] = code[i];
+//     }
+//     return $array.join('');
+//   }
