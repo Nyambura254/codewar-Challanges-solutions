@@ -19,3 +19,8 @@ console.log(sortGiftCode('gwqieeudnd'));
 // function sortGiftCode(code){
 //     return code.split('').sort().toString().replace(/,/g,''); 
 //   }
+
+//step 5
+// function sortGiftCode(code){
+//     return [...code].sort().join``
+//   }
