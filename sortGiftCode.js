@@ -42,3 +42,25 @@ console.log(sortGiftCode('gwqieeudnd'));
 //     bits.sort();
 //     return bits.join("");
 //   }
+
+//example 9
+/*
+ ** @Desc: Reorganizes a code of letters to be alphabetical 
+ ** @Param: String - Unorganized code of letters 
+ ** @Return: String - Each letter specifically alphabetized
+ */
+
+// function sortGiftCode(code){
+//     return code.split("").sort().join("");
+//   }
+
+
+//example 10
+
+// function sortGiftCode(code){
+//     var result = [];
+//     for(var i=0; i< code.length;i++){
+//       result.push(code.substr(i,1));
+//     }
+//     return result.sort().join('');
+//   }
