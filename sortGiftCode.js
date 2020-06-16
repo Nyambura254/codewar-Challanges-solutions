@@ -64,3 +64,17 @@ console.log(sortGiftCode('gwqieeudnd'));
 //     }
 //     return result.sort().join('');
 //   }
+
+
+//example 11
+// function sortGiftCode(code){
+//     var reg= new RegExp('[^'+code+']','gi');
+
+//     return 'abcdefghijklmnopqrstuvwxyz'.replace(reg,'');
+//   }
+
+
+//example 12
+// function sortGiftCode(code){
+//     return [...code].sort().join('');
+//   }
