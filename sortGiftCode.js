@@ -24,3 +24,21 @@ console.log(sortGiftCode('gwqieeudnd'));
 // function sortGiftCode(code){
 //     return [...code].sort().join``
 //   }
+
+//example 6
+
+// function sortGiftCode(code){
+//     return code.split``.sort().join``
+//   }
+
+//example 7
+// sortGiftCode = c => c.split('').sort().join('');
+
+
+//example 8
+
+// function sortGiftCode(code){
+//     var bits = code.split("");
+//     bits.sort();
+//     return bits.join("");
+//   }
