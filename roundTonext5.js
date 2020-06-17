@@ -1,7 +1,7 @@
 // Given an integer as input, can you round it to the next (meaning, "higher") 5?
 
 // Examples:
-
+//les than -4 will be 0;
 // input:    output:
 // 0    ->   0
 // 2    ->   5
