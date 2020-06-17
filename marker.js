@@ -1,3 +1,4 @@
+// example 1
 // function solution(input, markers) {
 //     return input.split('\n').map(
 //         line => markers.reduce(
