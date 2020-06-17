@@ -6,7 +6,7 @@
 //         )
 //     ).join('\n')
 // }
-// 8 similar code variations are grouped with this oneShow Variations
+
 
 // You initialise your newString with a space. That is a wrong start. That space is not warranted to be there. You should only take characters from the input. It should be an empty string.
 // The newline character is not "/n", but "\n"
