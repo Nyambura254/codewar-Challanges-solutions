@@ -19,8 +19,8 @@ function halvingSum(n) {
 console.log(halvingSum(27));
 
 // halving the n(n/2) then sum their halves
-// 27 => 27 + 13 + 6 + 3 + 1 = 50
-// 29=>29+14+7+3+1=54
+// 27 => 27 + 13 + 6 + 3 + 1 = 50;
+// 29=>29+14+7+3+1=54;
 
 
 // console.log(Math.floor(32.65));//32
