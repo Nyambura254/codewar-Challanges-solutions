@@ -20,7 +20,7 @@
 // [] => 4 is counted out and goes into the result [3,6,2,7,5,1,4]
 // So our final result is:
 
-// josephus([1,2,3,4,5,6,7],3)==[3,6,2,7,5,1,4]
+// josephus([1,2,3,4,5,6,7],3)==[3,6,2,7,5,1,4]//initial sequence
 
 function josephus(items, k) {
     let count = 0;
