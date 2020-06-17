@@ -5,15 +5,14 @@ the solution are all my ideas and research on my various assigned katas on codew
 .all challenges are based in javascript and are great for starters in javascript basics
 .start from javascript basics like stacks,queues,arrays,objects , functions... etc
 
-#example
-
+#example......
 
 // function solution(input, markers) {
-//     return input.split('\n').map(
-//         line => markers.reduce(
-//             (line, marker) => line.split(marker)[0].trim(), line
-//         )
-//     ).join('\n')
+// return input.split('\n').map(
+// line => markers.reduce(
+// (line, marker) => line.split(marker)[0].trim(), line
+// )
+// ).join('\n')
 // }
 // 8 similar code variations are grouped with this oneShow Variations
 
@@ -28,24 +27,22 @@ the solution are all my ideas and research on my various assigned katas on codew
 // newString is a string, so there is no need to call newString.toString();
 
 function solution(input, markers) {
-    let newString = "";
-    for (let i = 0; i < input.length; i++) {
-        let character = input[i];
-        if (markers.includes(character)) {
-            // move i to just before the end of the current line
-            i = input.indexOf("\n", i) - 1;
-            // Remove the white space that we already added at the end
-            newString = newString.trimRight();
-            // If no newline character at end of last line: break
-            if (i < 0) break;
-            // Skip rest of this iteration
-            continue;
-        }
-        newString += input[i];
-    }
-    return newString;
+let newString = "";
+for (let i = 0; i < input.length; i++) {
+let character = input[i];
+if (markers.includes(character)) {
+// move i to just before the end of the current line
+i = input.indexOf("\n", i) - 1;
+// Remove the white space that we already added at the end
+newString = newString.trimRight();
+// If no newline character at end of last line: break
+if (i < 0) break;
+// Skip rest of this iteration
+continue;
+}
+newString += input[i];
+}
+return newString;
 }
 
-
-
-//when you copy paste/download/glone the challange will outmatically 
+//when you copy paste/download/glone the challange will outmatically
