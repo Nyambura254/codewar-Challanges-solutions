@@ -3,6 +3,11 @@
 // domainName("http://github.com/carbonfive/raygun") == "github" 
 // domainName("http://www.zombie-bites.com") == "zombie-bites"
 // domainName("https://www.cnet.com") == "cnet"
+
+
+// kata url----https://www.codewars.com/kata/514a024011ea4fb54200004b
+
+
 // // step 1
 // domainName = url => url.replace("https://", "").replace("http://", "").replace("www.", "").split(".")[0];
 
