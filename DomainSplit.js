@@ -13,6 +13,5 @@
 
 //example 2
 function domainName(url) {
-    url.replace("https://", "").replace("http://", "").replace("www.", "").split(".")[0];
+    return url.split('/').filter(it => it.length > 0 && it.indexOf('http') === -1)[0].split('.').filter(it => it !== 'www')[0]
 }
-console.log(domainName("http://www.zombie-bites.com"));
