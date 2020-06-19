@@ -13,9 +13,9 @@ function halvingSum(n) { //initialize function
     while (n > 0) { //when n> 0
         Sum += n; //increament sum
         //floor() is a function that is used to return the largest integer value that is less than or equal to a number. In other words, the floor() function rounds a number down and returns an integer value. Because the floor() function is a static function of the Math object, it must be invoked through the placeholder object called Math
-        n = Math.floor(n / 2);
+        n = Math.floor(n / 2); //divide n by 2
     }
-    return Sum;
+    return Sum; //get sum
 }
 console.log(halvingSum(27));
 
