@@ -5,5 +5,5 @@ Array.prototype.filter = function(fn) { //our function intialization
     for (let i = 0; i < this.length; i++) { //we setup,do the comparison and give our change
         if (fn(this[i])) newArray.push(this[i]) //if exist we push
     }
-    return newArray
+    return newArray //return our array
 }
