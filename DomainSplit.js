@@ -5,7 +5,7 @@
 // domainName("https://www.cnet.com") == "cnet"
 
 
-// kata url----https://www.codewars.com/kata/514a024011ea4fb54200004b
+// https://www.codewars.com/kata/514a024011ea4fb54200004b
 
 
 // // step 1
