@@ -9,7 +9,7 @@
 //23 => 23 + 11 + 5 + 2 = 41
 
 function halvingSum(n) { //initialize function
-    var Sum = 0;
+    var Sum = 0; //sum start at zero
     while (n > 0) {
         Sum += n;
         //floor() is a function that is used to return the largest integer value that is less than or equal to a number. In other words, the floor() function rounds a number down and returns an integer value. Because the floor() function is a static function of the Math object, it must be invoked through the placeholder object called Math
