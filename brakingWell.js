@@ -27,7 +27,10 @@ speed(83.9598760937531, 0.7) -> 100.0
 #Notes:
 
 Remember to convert the velocity from km/h to m/s or from m/s in km/h when necessary.
-Don't forget the reaction time t: t = 1
+Don't forget the reactionx-special/nautilus-clipboard
+cut
+file:///home/bonnie-py-dev/Downloads/software/mongodb-org-server_4.2.8_amd64
+ time t: t = 1
 Don't truncate or round your results. See in "RUN EXAMPLES" the function assertFuzzyEquals.
 Shell: only dist is tested.
 */
