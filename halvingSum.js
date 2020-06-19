@@ -6,7 +6,8 @@
 
 // Example
 // 25  =>  25 + 12 + 6 + 3 + 1 = 47
-//23=> 23+11+5+2=41
+//23 => 23 + 11 + 5 + 2 = 41
+
 function halvingSum(n) {
     var Sum = 0;
     while (n > 0) {
