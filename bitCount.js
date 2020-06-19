@@ -6,7 +6,7 @@
 // return 5 in this case
 
 var countBits = function(n) {
-    // make an array with the bit result
+
     const base = (n).toString(2).split('');
 
     // make a sum with the array and make the index a Number
