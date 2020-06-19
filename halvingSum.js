@@ -8,7 +8,7 @@
 // 25  =>  25 + 12 + 6 + 3 + 1 = 47
 //23 => 23 + 11 + 5 + 2 = 41
 
-function halvingSum(n) {
+function halvingSum(n) { //initialize function
     var Sum = 0;
     while (n > 0) {
         Sum += n;
