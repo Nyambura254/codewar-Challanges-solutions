@@ -42,7 +42,7 @@ function getAllPrimeFactors(n) { //initialize function getAllPrimeFactors
     return str;
 }
 
-getAllPrimeFactors(7919);
+getAllPrimeFactors(7919); //gives primes which added to this number
 
 function getPrimesAndPowersObj(primeFactors) {
     var c = 1,
