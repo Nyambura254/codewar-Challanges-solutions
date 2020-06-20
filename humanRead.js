@@ -23,7 +23,7 @@ if (seconds < 360000) {
         seconds = "0" + seconds;
     }
 
-    if (minutes.toString().length === 1) {
+    if (minutes.toString().length === 1) { //if min is 59...next second change min to hr and start at 0 min
         minutes = "0" + minutes;
     }
 
