@@ -25,7 +25,7 @@
 function josephus(items, k) { //function initialization with two parameters
     let count = 0; //start our count at zero
     let result = []; //empty array as our results
-    while (items.length > 0) {
+    while (items.length > 0) { //our array items should be greater than zero
         for (let i = 0; i < items.length; i++) {
             if (++count % k === 0) { //our count start at 0,we increment it....the % is what we have in our sequence[...] and k is what we want to be sorted and that person to kill himself
                 result[result.length] = items[i]; //result.length should be equal as our sequence item[i]
