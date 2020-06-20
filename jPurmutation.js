@@ -22,7 +22,7 @@
 
 // josephus([1,2,3,4,5,6,7],3)==[3,6,2,7,5,1,4]//initial sequence
 
-function josephus(items, k) {
+function josephus(items, k) { //function initialization with two parameters
     let count = 0;
     let result = [];
     while (items.length > 0) {
