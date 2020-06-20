@@ -20,8 +20,8 @@
 
 function solution(input, markers) { //initializing the function and give two parameters
     let newString = "";
-    for (let i = 0; i < input.length; i++) {
-        let character = input[i];
+    for (let i = 0; i < input.length; i++) { //
+        let character = input[i]; //character given equited to inputs values
         if (markers.includes(character)) {
             // move i to just before the end of the current line
             i = input.indexOf("\n", i) - 1;
