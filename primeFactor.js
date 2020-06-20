@@ -27,7 +27,7 @@ function getAllPrimeFactors(n) { //initialize function getAllPrimeFactors
         while (n % primesTilln[j] === 0) { //we equals all together to identify primes
             q = n / primesTilln[j];
             n = q;
-            primeFactors.push(primesTilln[j]);
+            primeFactors.push(primesTilln[j]); //push prime
         }
     }
     obj = getPrimesAndPowersObj(primeFactors);
