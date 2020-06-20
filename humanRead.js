@@ -15,7 +15,7 @@ if (seconds < 360000) {
     console.log((seconds % 3600) % 60)
     hours = Math.floor(seconds / 3600); //second to hrs
     minutes = Math.floor((seconds % 3600) / 60); //seconds to min
-    seconds = Math.floor((seconds % 3600) % 60);
+    seconds = Math.floor((seconds % 3600) % 60); //to have the second
 
 
     if (seconds.toString().length === 1) {
