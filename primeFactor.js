@@ -33,11 +33,11 @@ function getAllPrimeFactors(n) { //initialize function getAllPrimeFactors
     obj = getPrimesAndPowersObj(primeFactors);
     for (var x in obj) {
         if (obj[x] > 1) {
-            add = "(" + x + "**" + obj[x] + ")";
+            add = "(" + x + "**" + obj[x] + ")"; //multiply 
         } else if (obj[x] === 1) {
             add = "(" + x + ")";
         }
-        str = str + add;
+        str = str + add; //add to get the product sum
     }
     return str;
 }
