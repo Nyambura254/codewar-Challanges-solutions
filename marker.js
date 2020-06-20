@@ -22,7 +22,7 @@ function solution(input, markers) { //initializing the function and give two par
     let newString = "";
     for (let i = 0; i < input.length; i++) { //set-up,comparison and change
         let character = input[i]; //character given equited to inputs values
-        if (markers.includes(character)) {
+        if (markers.includes(character)) { //if our marker have characters...
             // move i to just before the end of the current line
             i = input.indexOf("\n", i) - 1;
             // Remove the white space that we already added at the end
