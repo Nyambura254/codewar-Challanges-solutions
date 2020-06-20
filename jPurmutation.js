@@ -36,7 +36,7 @@ function josephus(items, k) { //function initialization with two parameters
     return (result); //end and give result
 }
 console.log(josephus([1, 2, 3, 4, 5, 6, 7], 3));
-
+//how this will be outputed
 /*[1,2,4,5,6,7]=>3-----------------[3]
 [1,2,4,5,6,7]=>6--------------------[3,6]
 [1,2,4,5,7]=>2----------------------[3,6,2]
