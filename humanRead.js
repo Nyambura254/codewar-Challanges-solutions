@@ -31,7 +31,7 @@ if (seconds < 360000) {
         hours = "0" + hours;
     }
 
-    return hours + ":" + minutes + ":" + seconds;
+    return hours + ":" + minutes + ":" + seconds; //result in form of 0:0:0hr
 
 }
 
