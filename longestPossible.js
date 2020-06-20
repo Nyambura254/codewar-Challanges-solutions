@@ -3,7 +3,7 @@
 //     each taken only once - coming from s1 or s2.
 
 function longest(s1, s2) { //function initialization with two parameters to do the comparison
-    var result = "";
+    var result = ""; //string should be empty
 
     for (var i = 0; i < s1.length; i++) {
         if (result.indexOf(s1[i]) === -1) {
