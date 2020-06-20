@@ -8,7 +8,7 @@
 
 function largestPairSum(numbers) { //initialization
     numbers.sort(function(a, b) { //sort from two 
-        if (a > b) {
+        if (a > b) { //set a to be greater than b
             return -1;
         }
         if (b > a) {
