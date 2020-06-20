@@ -13,7 +13,7 @@ function likes(names) { //initialization with parameter names
 
     var splitNamesLength = names.length //our names equals length
 
-    if (splitNamesLength === 0) { // 
+    if (splitNamesLength === 0) { // if what we added has no reaction
 
         var string = "no one likes this";
 
