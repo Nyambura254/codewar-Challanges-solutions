@@ -15,7 +15,7 @@ function getAllPrimeFactors(n) { //initialize function getAllPrimeFactors
         add;
     //generate all prime numbers til 'n'
     //here we are checking till the given number including the given number, to display that, if it self is a prime
-    for (var i = 0; i <= n; i++) {
+    for (var i = 0; i <= n; i++) { //go the set-up,compare and change
         if (isPrime(i)) {
             primesTilln.push(i);
         }
