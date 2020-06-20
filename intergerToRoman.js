@@ -22,7 +22,7 @@ In Roman numerals 1990 is rendered:
 // D          500
 // M          1,000
 
-function numToRoman(number) {
+function numToRoman(number) { //function initialization
     // convert the number to a roman numeral
     let roman = {
         M: 1000,
