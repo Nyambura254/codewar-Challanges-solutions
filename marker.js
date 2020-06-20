@@ -18,7 +18,7 @@
 // You have no provision to eliminate spacing that occurs before a marker character.
 // newString is a string, so there is no need to call newString.toString();
 
-function solution(input, markers) {
+function solution(input, markers) { //initializing the function and give two parameters
     let newString = "";
     for (let i = 0; i < input.length; i++) {
         let character = input[i];
