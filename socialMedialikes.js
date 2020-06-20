@@ -19,7 +19,7 @@ function likes(names) { //initialization with parameter names
 
         return string;
 
-    } else if (splitNamesLength === 1) {
+    } else if (splitNamesLength === 1) { //if there is reaction
 
         var splitNamesString1 = names.join("");
 
