@@ -35,7 +35,7 @@ function likes(names) { //initialization with parameter names
 
         return names[0] + ", " + names[1] + " and " + names[2] + " like this";
 
-    } else if (splitNamesLength >= 4) {
+    } else if (splitNamesLength >= 4) { //if more reaction,show how many likes
 
         var splitNamesLength4 = splitNamesLength - 2;
 
