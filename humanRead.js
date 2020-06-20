@@ -11,10 +11,10 @@
 // push to a string so that : are in between each H, M, S 
 
 if (seconds < 360000) {
-    var hours, minutes;
+    var hours, minutes; //to have variables
     console.log((seconds % 3600) % 60)
-    hours = Math.floor(seconds / 3600);
-    minutes = Math.floor((seconds % 3600) / 60);
+    hours = Math.floor(seconds / 3600); //second to hrs
+    minutes = Math.floor((seconds % 3600) / 60); //seconds to min
     seconds = Math.floor((seconds % 3600) % 60);
 
 
