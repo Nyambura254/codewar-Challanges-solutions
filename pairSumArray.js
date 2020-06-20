@@ -19,4 +19,4 @@ function largestPairSum(numbers) { //initialization
     return numbers[0] + numbers[1]; //add the selected value to give largest output
 
 }
-console.log(largestPairSum([-10, -8, -16, -18, -19]));
+console.log(largestPairSum([-10, -8, -16, -18, -19])); //in this case the answer should be -18
