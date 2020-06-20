@@ -7,7 +7,7 @@
 // Example: n = 86240 should return "(2**5)(5)(7**2)(11)"
 //primeFactors(7775460),"(2**2)(3**3)(5)(7)(11**2)(17)"
 
-function getAllPrimeFactors(n) {
+function getAllPrimeFactors(n) { //initialize function getAllPrimeFactors
 
     var primesTilln = [],
         q, primeFactors = [],
