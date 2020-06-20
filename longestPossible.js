@@ -17,5 +17,5 @@ function longest(s1, s2) { //function initialization with two parameters to do t
         }
     }
 
-    return result.split('').sort().join('');
+    return result.split('').sort().join(''); //we do split to separate,sort from separated array,after that we join 
 }
