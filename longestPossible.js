@@ -5,7 +5,7 @@
 function longest(s1, s2) { //function initialization with two parameters to do the comparison
     var result = ""; //string should be empty
 
-    for (var i = 0; i < s1.length; i++) {
+    for (var i = 0; i < s1.length; i++) { //do the set-up,do the comparison and do the change
         if (result.indexOf(s1[i]) === -1) {
             result += s1[i];
         }
