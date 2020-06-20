@@ -13,6 +13,7 @@
 if (seconds < 360000) {
     var hours, minutes; //to have variables
     console.log((seconds % 3600) % 60)
+        //math.floor prevents the decimal part in time..like we can't have 1/2 hr
     hours = Math.floor(seconds / 3600); //second to hrs
     minutes = Math.floor((seconds % 3600) / 60); //seconds to min
     seconds = Math.floor((seconds % 3600) % 60); //to have the second
