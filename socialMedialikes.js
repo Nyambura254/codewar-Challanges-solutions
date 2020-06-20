@@ -39,7 +39,7 @@ function likes(names) { //initialization with parameter names
 
         var splitNamesLength4 = splitNamesLength - 2;
 
-        return names[0] + ", " + names[1] + " and " + String(splitNamesLength4) + " others like this";
+        return names[0] + ", " + names[1] + " and " + String(splitNamesLength4) + " others like this"; //return names of those loked and how many
 
     }
 
