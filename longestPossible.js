@@ -12,7 +12,7 @@ function longest(s1, s2) { //function initialization with two parameters to do t
     }
 
     for (var i = 0; i < s2.length; i++) { //string 2 setup,comparison and change
-        if (result.indexOf(s2[i]) === -1) {
+        if (result.indexOf(s2[i]) === -1) { //look at given index and start from behide
             result += s2[i];
         }
     }
