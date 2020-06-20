@@ -47,7 +47,7 @@ function numToRoman(number) { //function initialization
             //we look our value of i in the given convertion numerals
             if (roman[i] <= number) { //if [i] is greater or equal to the given number,loop over
                 ans += i; //+ number + " "; //add value to the variable
-                number -= roman[i];
+                number -= roman[i]; //decreament the value of i in roman
                 break; //terminates the current loop and return the converted number to numeral
             }
         }
