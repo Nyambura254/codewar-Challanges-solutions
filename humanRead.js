@@ -18,7 +18,7 @@ if (seconds < 360000) {
     seconds = Math.floor((seconds % 3600) % 60); //to have the second
 
 
-    if (seconds.toString().length === 1) {
+    if (seconds.toString().length === 1) { //if length =1 our second is at zero
         seconds = "0" + seconds;
     }
 
