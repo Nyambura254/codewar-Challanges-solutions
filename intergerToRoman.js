@@ -52,6 +52,6 @@ function numToRoman(number) { //function initialization
             }
         }
     }
-    return ans;
+    return ans; //end and return what we want
 }
 console.log(numToRoman(46));
