@@ -14,7 +14,7 @@ Divison should be integer division. For example, this should return 2, not 2.666
 eight(dividedBy(three())); */
 
 function exp(num, operand) { //function initialization
-    if (!operand) return num;
+    if (!operand) return num; //if nothing to do operation return number
     return operand(num);
 }
 
