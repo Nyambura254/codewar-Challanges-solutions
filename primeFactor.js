@@ -24,7 +24,7 @@ function getAllPrimeFactors(n) { //initialize function getAllPrimeFactors
     //now decompose 'n' with prime factors available from 'primesTilln'
     for (var j = 0; j <= primesTilln.length; j++) { //set-up,comparison and change
         //divide 'n' with the primes in 'primesTilln' continously unitll it is divisible by a single prime
-        while (n % primesTilln[j] === 0) {
+        while (n % primesTilln[j] === 0) { //we equals all together to identify primes
             q = n / primesTilln[j];
             n = q;
             primeFactors.push(primesTilln[j]);
