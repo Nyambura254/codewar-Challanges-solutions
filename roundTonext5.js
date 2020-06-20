@@ -21,7 +21,7 @@ function roundToNext5(n) { //initialization
         if (x % 5 !== 0) { //if what we pass not divisible by 5 we increament
             x++;
         } else {
-            return x;
+            return x; //if divisible,we return what we pass
         }
     }
 }
