@@ -16,7 +16,7 @@ function largestPairSum(numbers) { //initialization
         }
         return 0;
     });
-    return numbers[0] + numbers[1];
+    return numbers[0] + numbers[1]; //add the selected value to give largest output
 
 }
 console.log(largestPairSum([-10, -8, -16, -18, -19]));
