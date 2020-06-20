@@ -18,7 +18,7 @@
 function roundToNext5(n) { //initialization
     let x = n; //what we want to pass to be as n
     for (let i = 0; i <= 5; i++) { //set-up,comparison and change
-        if (x % 5 !== 0) {
+        if (x % 5 !== 0) { //if what we pass not divisible by 5 we increament
             x++;
         } else {
             return x;
