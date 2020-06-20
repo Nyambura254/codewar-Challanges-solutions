@@ -32,7 +32,7 @@ function solution(input, markers) { //initializing the function and give two par
             // Skip rest of this iteration
             continue;
         }
-        newString += input[i];
+        newString += input[i]; //increment our input
     }
     return newString;
 }
