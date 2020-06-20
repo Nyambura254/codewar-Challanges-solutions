@@ -6,7 +6,7 @@
 // [99, 2, 2, 23, 19]  --> 122 (i.e. sum of 99 and 23)
 // Input sequence contains minimum two elements and every element is an integer.
 
-function largestPairSum(numbers) {
+function largestPairSum(numbers) { //initialization
     numbers.sort(function(a, b) {
         if (a > b) {
             return -1;
