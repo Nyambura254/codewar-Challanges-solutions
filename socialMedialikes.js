@@ -9,7 +9,7 @@
 // likes ["Alex", "Jacob", "Mark", "Max"] // must be "Alex, Jacob and 2 others like this"
 
 
-function likes(names) {
+function likes(names) { //initialization with parameter names
 
     var splitNamesLength = names.length
 
