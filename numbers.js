@@ -17,7 +17,7 @@ function exp(num, operand) { //function initialization
     if (!operand) return num; //if nothing to do operation return number
     return operand(num);
 }
-
+//we do for each operand
 function two(operand) {
     return exp(2, operand);
 }
