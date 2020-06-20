@@ -43,7 +43,7 @@ function numToRoman(number) { //function initialization
     let ans = "";
     //our number should start from (0)
     while (number > 0) { //num is > 0
-        for (i in roman) {
+        for (i in roman) { //look for i in roman numerals
             //we look our value of i in the given convertion numerals
             if (roman[i] <= number) {
                 ans += i; //+ number + " "; //add value to the variable
