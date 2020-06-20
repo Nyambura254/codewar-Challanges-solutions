@@ -7,54 +7,58 @@
 // Example: n = 86240 should return "(2**5)(5)(7**2)(11)"
 //primeFactors(7775460),"(2**2)(3**3)(5)(7)(11**2)(17)"
 
-function getAllPrimeFactors(n){
+function getAllPrimeFactors(n) {
 
-  var primesTilln = [], q, primeFactors = [], obj, str = "", add;
-  //generate all prime numbers til 'n'
-  //here we are checking till the given number including the given number, to display that, if it self is a prime
-  for(var i = 0; i <= n; i++){
-    if(isPrime(i)){
-      primesTilln.push(i);
+    var primesTilln = [],
+        q, primeFactors = [],
+        obj, str = "",
+        add;
+    //generate all prime numbers til 'n'
+    //here we are checking till the given number including the given number, to display that, if it self is a prime
+    for (var i = 0; i <= n; i++) {
+        if (isPrime(i)) {
+            primesTilln.push(i);
+        }
     }
-  }
-  console.log(primesTilln);
-  //now decompose 'n' with prime factors available from 'primesTilln'
-  for(var j = 0; j <= primesTilln.length; j++){
-    //divide 'n' with the primes in 'primesTilln' continously unitll it is divisible by a single prime
-    while(n % primesTilln[j] === 0){
-      q = n / primesTilln[j];
-      n = q;
-      primeFactors.push(primesTilln[j]);
+    console.log(primesTilln);
+    //now decompose 'n' with prime factors available from 'primesTilln'
+    for (var j = 0; j <= primesTilln.length; j++) {
+        //divide 'n' with the primes in 'primesTilln' continously unitll it is divisible by a single prime
+        while (n % primesTilln[j] === 0) {
+            q = n / primesTilln[j];
+            n = q;
+            primeFactors.push(primesTilln[j]);
+        }
     }
-  }
-  obj = getPrimesAndPowersObj(primeFactors);
-  for(var x in obj){
-    if(obj[x] > 1){
-      add = "(" + x + "**" + obj[x] + ")";
-    }else if(obj[x] === 1){
-      add = "(" + x + ")";
+    obj = getPrimesAndPowersObj(primeFactors);
+    for (var x in obj) {
+        if (obj[x] > 1) {
+            add = "(" + x + "**" + obj[x] + ")";
+        } else if (obj[x] === 1) {
+            add = "(" + x + ")";
+        }
+        str = str + add;
     }
-    str = str + add;
-  }
-  return str;
+    return str;
 }
 
 getAllPrimeFactors(7919);
 
-function getPrimesAndPowersObj(primeFactors){
-  var c = 1, obj = {};
-    for(var i = 0; i < primeFactors.length; i++){
-    for(var j = 0; j < primeFactors.length; j++){
-      if(i !== j){
-        if(primeFactors[i] === primeFactors[j]){
-          c++;
+function getPrimesAndPowersObj(primeFactors) {
+    var c = 1,
+        obj = {};
+    for (var i = 0; i < primeFactors.length; i++) {
+        for (var j = 0; j < primeFactors.length; j++) {
+            if (i !== j) {
+                if (primeFactors[i] === primeFactors[j]) {
+                    c++;
+                }
+            }
         }
-      }
+        obj[primeFactors[i]] = c;
+        c = 1;
     }
-    obj[primeFactors[i]] = c;
-    c = 1;
-  }
-  return obj;
+    return obj;
 }
 
 function isPrime(number) {
