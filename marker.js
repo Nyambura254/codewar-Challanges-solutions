@@ -34,5 +34,5 @@ function solution(input, markers) { //initializing the function and give two par
         }
         newString += input[i]; //increment our input
     }
-    return newString;
+    return newString; //return the formed string
 }
