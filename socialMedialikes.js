@@ -11,7 +11,7 @@
 
 function likes(names) { //initialization with parameter names
 
-    var splitNamesLength = names.length
+    var splitNamesLength = names.length //our names equals length
 
     if (splitNamesLength === 0) { // 
 
