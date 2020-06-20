@@ -42,7 +42,7 @@ function numToRoman(number) { //function initialization
     //empty string meaning we have to put out number to be converted to roman
     let ans = "";
     //our number should start from (0)
-    while (number > 0) {
+    while (number > 0) { //num is > 0
         for (i in roman) {
             //we look our value of i in the given convertion numerals
             if (roman[i] <= number) {
