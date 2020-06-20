@@ -25,4 +25,4 @@ function roundToNext5(n) { //initialization
         }
     }
 }
-console.log(roundToNext5(-3));
+console.log(roundToNext5(-3)); //gives zero,is less than 5
