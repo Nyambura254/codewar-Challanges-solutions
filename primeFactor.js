@@ -10,8 +10,8 @@
 function getAllPrimeFactors(n) { //initialize function getAllPrimeFactors
 
     var primesTilln = [], //empty array primesTilln
-        q, primeFactors = [],
-        obj, str = "",
+        q, primeFactors = [], //same case
+        obj, str = "", //obj and str be empty
         add;
     //generate all prime numbers til 'n'
     //here we are checking till the given number including the given number, to display that, if it self is a prime
