@@ -9,7 +9,7 @@
 
 function getAllPrimeFactors(n) { //initialize function getAllPrimeFactors
 
-    var primesTilln = [],
+    var primesTilln = [], //empty array primesTilln
         q, primeFactors = [],
         obj, str = "",
         add;
