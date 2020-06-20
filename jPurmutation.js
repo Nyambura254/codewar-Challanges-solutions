@@ -33,7 +33,7 @@ function josephus(items, k) { //function initialization with two parameters
             }
         }
     }
-    return (result);
+    return (result); //end and give result
 }
 console.log(josephus([1, 2, 3, 4, 5, 6, 7], 3));
 
