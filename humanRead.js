@@ -27,13 +27,13 @@ if (seconds < 360000) {
         minutes = "0" + minutes;
     }
 
-    if (hours.toString().length === 1) {
+    if (hours.toString().length === 1) { //if min reach at 59 and next second push it to make an hr...time increament with one
         hours = "0" + hours;
     }
 
     return hours + ":" + minutes + ":" + seconds;
 
 }
-}
+
 
 humanReadable(359999);
