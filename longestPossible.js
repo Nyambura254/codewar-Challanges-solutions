@@ -2,7 +2,7 @@
 
 //     each taken only once - coming from s1 or s2.
 
-function longest(s1, s2) {
+function longest(s1, s2) { //function initialization with two parameters to do the comparison
     var result = "";
 
     for (var i = 0; i < s1.length; i++) {
