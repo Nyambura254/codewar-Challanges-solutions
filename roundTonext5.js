@@ -17,7 +17,7 @@
 // You can assume that all inputs are valid integers.
 function roundToNext5(n) { //initialization
     let x = n; //what we want to pass to be as n
-    for (let i = 0; i <= 5; i++) {
+    for (let i = 0; i <= 5; i++) { //set-up,comparison and change
         if (x % 5 !== 0) {
             x++;
         } else {
