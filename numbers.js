@@ -13,27 +13,27 @@ The most outer function represents the left operand, the most inner function rep
 Divison should be integer division. For example, this should return 2, not 2.666666...:
 eight(dividedBy(three())); */
 
-function exp(num, operand) {
-  if (!operand) return num;
-  return operand(num);
+function exp(num, operand) { //function initialization
+    if (!operand) return num;
+    return operand(num);
 }
 
 function two(operand) {
-  return exp(2, operand);
+    return exp(2, operand);
 }
 
 function three(operand) {
-  return exp(3, operand);
+    return exp(3, operand);
 }
 
 function four(operand) {
-  return exp(4, operand);
+    return exp(4, operand);
 }
 
 function times(x) {
-  return function (y) {
-    return y * x;
-  };
+    return function(y) {
+        return y * x;
+    };
 }
 
 console.log(two(times(three())));
