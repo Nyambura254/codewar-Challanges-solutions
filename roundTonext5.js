@@ -15,8 +15,8 @@
 // Input may be any positive or negative integer (including 0).
 
 // You can assume that all inputs are valid integers.
-function roundToNext5(n) {
-    let x = n;
+function roundToNext5(n) { //initialization
+    let x = n; //
     for (let i = 0; i <= 5; i++) {
         if (x % 5 !== 0) {
             x++;
