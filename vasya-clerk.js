@@ -21,7 +21,7 @@ function tickets(peopleInLine) { //function initialization with ticket and peopl
                     change["50"]++ //now the box he has passed 50
                         change["25"]-- //after giving 25 as change
                 } else {
-                    return "NO"
+                    return "NO" //if no change,reject transaction and loop over to next
                 }
                 break
             case 100:
