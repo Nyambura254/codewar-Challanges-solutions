@@ -20,7 +20,7 @@
 
 // in simple terms,we want to get the max value with certain parameter when passed will be subtracted from it o get the next value =to output
 
-function dblLinear(n) {
+function dblLinear(n) { // function initialization with parameter n
     let x = 1;
     let y = [];
     let z = [];
