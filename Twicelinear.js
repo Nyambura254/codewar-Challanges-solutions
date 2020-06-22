@@ -26,7 +26,7 @@ function dblLinear(n) { // function initialization with parameter n
     let z = [];
 
     for (let i = 0; i < n; i++) { //set-up,comparison and change
-        y.push(2 * x + 1);
+        y.push(2 * x + 1); //if we push/add y we multiply by x[1] and increment with 1
         z.push(3 * x + 1);
         let min = Math.min(y[0], z[0]);
         if (min === y[0]) x = y.shift();
