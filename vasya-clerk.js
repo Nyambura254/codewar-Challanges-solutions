@@ -7,7 +7,7 @@
 // Return YES, if Vasya can sell a ticket to every person and give change with the bills he has at hand at that moment. Otherwise return NO.
 function tickets(peopleInLine) { //function initialization with ticket and peopleInLine as parameter
     let change = { //set our variable change
-        "25": 0,
+        "25": 0, //if 25 then no change
         "50": 0
     }
 
