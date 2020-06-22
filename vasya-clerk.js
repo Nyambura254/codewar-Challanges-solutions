@@ -8,7 +8,7 @@
 function tickets(peopleInLine) { //function initialization with ticket and peopleInLine as parameter
     let change = { //set our variable change
         "25": 0, //if 25 then no change
-        "50": 0
+        "50": 0 // if second come with 50,he pass and get the ticket since vatsa has 25 to give change in the box
     }
 
     for (money of peopleInLine) {
