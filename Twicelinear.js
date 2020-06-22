@@ -32,6 +32,6 @@ function dblLinear(n) { // function initialization with parameter n
         if (min === y[0]) x = y.shift(); //The shift() method removes the first element from an array and returns that removed element. This method changes the length of the array.
         if (min === z[0]) x = z.shift();
     }
-    return x;
+    return x; //what we passed and then shifted
 }
 console.log(dblLinear(3));
