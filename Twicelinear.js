@@ -34,4 +34,4 @@ function dblLinear(n) { // function initialization with parameter n
     }
     return x; //what we passed and then shifted
 }
-console.log(dblLinear(3));
+console.log(dblLinear(3)); //output is 7---------7-3=4
