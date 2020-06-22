@@ -16,7 +16,9 @@
 
 // Note:
 // Focus attention on efficiency
-// 
+
+
+// in simple terms,we want to get the max value with certain parameter when passed will be subtracted from it o get the next value =to output
 
 function dblLinear(n) {
     let x = 1;
