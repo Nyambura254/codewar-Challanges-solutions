@@ -35,7 +35,7 @@ function tickets(peopleInLine) { //function initialization with ticket and peopl
                     return "NO"
                 }
                 break
-            default:
+            default: //if nothing to transact...end
                 break
         }
     }
