@@ -16,7 +16,7 @@ function tickets(peopleInLine) { //function initialization with ticket and peopl
             case 25: //if you have 25 you get the ticket since no change needed
                 change["25"]++
                     break //go to next
-            case 50:
+            case 50: //case you have 50 ,vaysa looks in the box to see if there is change -25
                 if (change["25"] > 0) {
                     change["50"]++
                         change["25"]--
