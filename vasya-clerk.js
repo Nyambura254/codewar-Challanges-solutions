@@ -13,7 +13,7 @@ function tickets(peopleInLine) { //function initialization with ticket and peopl
 
     for (money of peopleInLine) { //loop over people in line and check the money they have 
         switch (money) {
-            case 25:
+            case 25: //if you have 25 you get the ticket since no change needed
                 change["25"]++
                     break
             case 50:
