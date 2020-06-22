@@ -24,6 +24,7 @@ function tickets(peopleInLine) { //function initialization with ticket and peopl
                     return "NO" //if no change,reject transaction and loop over to next
                 }
                 break
+                //in case vaysa has served two people first with 25 and second with 50,then in his box he has 50 note and cannot serve the third person with 100 note since he has no 75 as change
             case 100:
                 if ((change["25"] > 0) && (change["50"] > 0)) {
                     change["25"]--
