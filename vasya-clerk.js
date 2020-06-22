@@ -11,7 +11,7 @@ function tickets(peopleInLine) { //function initialization with ticket and peopl
         "50": 0 // if second come with 50,he pass and get the ticket since vatsa has 25 to give change in the box
     }
 
-    for (money of peopleInLine) {
+    for (money of peopleInLine) { //loop over people in line and check the money they have 
         switch (money) {
             case 25:
                 change["25"]++
