@@ -29,7 +29,7 @@ function tickets(peopleInLine) { //function initialization with ticket and peopl
                 if ((change["25"] > 0) && (change["50"] > 0)) {
                     change["25"]--
                         change["50"]--
-                } else if (change["25"] >= 3) {
+                } else if (change["25"] >= 3) { //we negative 3{in this case means 100-75=25}
                     change["25"] -= 3
                 } else {
                     return "NO"
