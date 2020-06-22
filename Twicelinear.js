@@ -25,7 +25,7 @@ function dblLinear(n) { // function initialization with parameter n
     let y = []; //empty array for both y and z
     let z = [];
 
-    for (let i = 0; i < n; i++) {
+    for (let i = 0; i < n; i++) { //set-up,comparison and change
         y.push(2 * x + 1);
         z.push(3 * x + 1);
         let min = Math.min(y[0], z[0]);
