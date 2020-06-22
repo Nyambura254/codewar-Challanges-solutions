@@ -22,7 +22,7 @@
 
 function dblLinear(n) { // function initialization with parameter n
     let x = 1; //everything x start at 1
-    let y = [];
+    let y = []; //empty array for both y and z
     let z = [];
 
     for (let i = 0; i < n; i++) {
