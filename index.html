@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+
+<body>
+    <form name="contactform" onsubmit={ "this.contactSubmit.bind(this)"}>
+        <div classname="col-md-6">
+            <fieldset>
+                <input ref="name" type="text" size="30" placeholder="Name" />
+                <br />
+                <input refs="email" type="text" size="30" placeholder="Email" />
+                <br />
+                <input refs="phone" type="text" size="30" placeholder="Phone" />
+                <br />
+                <input refs="address" type="text" size="30" placeholder="Address" />
+                <br />
+            </fieldset>
+        </div>
+        <div classname="col-md-6">
+            <fieldset>
+                <textarea refs="message" cols="40" rows="20" classname="comments" placeholder="Message" />
+            </fieldset>
+        </div>
+        <div classname="col-md-12">
+            <fieldset>
+                <button classname="btn btn-lg pro" id="submit" value="Submit">Send Message</button>
+            </fieldset>
+        </div>
+    </form>
+
+
+</body>
+
+</html>
