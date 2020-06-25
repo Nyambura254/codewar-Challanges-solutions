@@ -31,4 +31,4 @@ function martingale(bank, outcomes) { //function  initialization with two params
     }
     return bank; //get what we have at last
 }
-console.log(martingale(3000, [1, 1, 1, 0, 1]))
+console.log(martingale(3000, [1, 1, 1, 0, 1])) //1 is for win and 0 for loss
