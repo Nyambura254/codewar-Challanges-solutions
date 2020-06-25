@@ -15,7 +15,7 @@ function sumTwoSmallestNumbers(numbers) { //function initialization
             result += number[0]; //we increment our number at 0 index
         }
         if (i === 1) { //if i is 1
-            result += number[1];
+            result += number[1]; //we increment that i
         }
     }
     return result;
