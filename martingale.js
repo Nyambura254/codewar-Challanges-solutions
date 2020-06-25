@@ -25,7 +25,7 @@ function martingale(bank, outcomes) { //function  initialization with two params
             bank += placedBet; //if we win,bank money increase
             placedBet = 100; //placed amount
         } else { //what if we loss
-            bank -= placedBet;
+            bank -= placedBet; //bank money reduce
             placedBet *= 2;
         }
     }
