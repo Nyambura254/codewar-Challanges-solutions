@@ -6,7 +6,7 @@ non-positive integers will be passed.
 function sumTwoSmallestNumbers(numbers) { //function initialization
 
     //Code here
-    let number = numbers.sort(function(a, b) {
+    let number = numbers.sort(function(a, b) { //sort our numbers with function method and initialize with two params
         return a - b;
     }); //*** */
     let result = 0;​
