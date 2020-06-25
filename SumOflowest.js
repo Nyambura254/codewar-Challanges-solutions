@@ -9,7 +9,7 @@ function sumTwoSmallestNumbers(numbers) { //function initialization
     let number = numbers.sort(function(a, b) { //sort our numbers with function method and initialize with two params
         return a - b;
     }); //*** */
-    let result = 0;​
+    let result = 0;​ //results start at 0,numbers bellow -1 is invalid
     for (let i = 0; i < number.length; i++) {
         if (i === 0) {
             result += number[0];
