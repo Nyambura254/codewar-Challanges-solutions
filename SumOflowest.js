@@ -10,7 +10,7 @@ function sumTwoSmallestNumbers(numbers) { //function initialization
         return a - b;
     }); //*** */
     let result = 0;​ //results start at 0,numbers bellow -1 is invalid
-    for (let i = 0; i < number.length; i++) {
+    for (let i = 0; i < number.length; i++) { //setting up i,doing comparison,increment i
         if (i === 0) {
             result += number[0];
         }
