@@ -19,7 +19,7 @@
 
 
 function martingale(bank, outcomes) { //function  initialization with two params.bank for money we have at the start and outcome is what we gain or loss
-    let placedBet = 100;
+    let placedBet = 100; //initial starting bet money
     for (let i = 0; i < outcomes.length; i++) {
         if (outcomes[i]) {
             bank += placedBet;
