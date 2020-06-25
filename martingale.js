@@ -29,6 +29,6 @@ function martingale(bank, outcomes) { //function  initialization with two params
             placedBet *= 2; //depending on money we have placed//might be 200
         }
     }
-    return bank;
+    return bank; //get what we have at last
 }
 console.log(martingale(3000, [1, 1, 1, 0, 1]))
