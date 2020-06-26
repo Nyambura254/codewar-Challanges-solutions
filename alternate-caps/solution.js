@@ -22,6 +22,6 @@ function capitalize(s) { //initialization
             oddStr += s[i]; //gives output
         }
     }
-    return [evenStr, oddStr];
+    return [evenStr, oddStr]; //either to be returned...we should have two outputs
 };
 console.log(capitalize("abcdef"));
