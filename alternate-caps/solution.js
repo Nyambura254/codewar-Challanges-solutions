@@ -17,7 +17,7 @@ function capitalize(s) { //initialization
         }
 
         if (i % 2 === 1) { //if divided and has reminder
-            oddStr += s[i].toUpperCase();
+            oddStr += s[i].toUpperCase(); //increment and do uppercase
         } else {
             oddStr += s[i];
         }
