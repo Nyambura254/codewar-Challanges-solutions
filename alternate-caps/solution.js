@@ -9,7 +9,7 @@ function capitalize(s) { //initialization
     let evenStr = ''; //we can have strings not odd
     let oddStr = '';
 
-    for (let i = 0; i < s.length; i++) {
+    for (let i = 0; i < s.length; i++) { //setup,comparison,change
         if (i % 2 === 0) {
             evenStr += s[i].toUpperCase();
         } else {
