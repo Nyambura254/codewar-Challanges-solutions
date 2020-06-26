@@ -24,4 +24,4 @@ function capitalize(s) { //initialization
     }
     return [evenStr, oddStr]; //either to be returned...we should have two outputs
 };
-console.log(capitalize("abcdef"));
+console.log(capitalize("abcdef")); //AbCdEf and aBcDeF
