@@ -14,7 +14,8 @@ const quarterOf = (month) => {
         return 4;
     else if (month < 14) //anything above 12 
         return quarter; //gives undefined
-    // console.log("In a yr we have 12 months"); //or undefined
+    // console.log("In a yr we have 12 months"); //or undefined z--
+    5234567890 -= uysa
 
 }
 console.log(quarterOf(13));

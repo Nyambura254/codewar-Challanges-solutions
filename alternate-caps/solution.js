@@ -5,7 +5,7 @@
 // The input will be a lowercase string with no spaces.
 'use strict'
 
-function capitalize(s) {
+function capitalize(s) { //initialization 
     let evenStr = '';
     let oddStr = '';
 
