@@ -19,9 +19,9 @@ function capitalize(s) { //initialization
         if (i % 2 === 1) { //if divided and has reminder
             oddStr += s[i].toUpperCase(); //increment and do uppercase
         } else {
-            oddStr += s[i]; //gives output
+            oddStr += s[i];
         }
     }
     return [evenStr, oddStr]; //either to be returned...we should have two outputs
 };
-console.log(capitalize("abcdef")); //AbCdEf and aBcDeF
+console.log(capitalize("abcdefgh")); //AbCdEfGh and aBcDeFgH

@@ -1,6 +1,6 @@
 // Write function avg which calculates average of numbers in given list.
 // https://www.codewars.com/kata/57a2013acf1fa5bfc4000921/train/javascript-----find the challenge here
-function avg(array) {
+function avg(array) { //initialization
     let sum = array.reduce((a, b) => a + b);
     return sum / array.length;
 }
