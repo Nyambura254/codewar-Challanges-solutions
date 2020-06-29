@@ -6,7 +6,7 @@
 'use strict'
 
 function capitalize(s) { //initialization 
-    let evenStr = ''; //we can have strings not odd
+    let evenStr = ''; //we can have strings not odd....
     let oddStr = '';
 
     for (let i = 0; i < s.length; i++) { //setup,comparison,change
