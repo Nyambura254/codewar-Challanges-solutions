@@ -11,7 +11,7 @@ function capitalize(s) { //initialization
 
     for (let i = 0; i < s.length; i++) { //setup,comparison,change
         if (i % 2 === 0) { //if its even
-            evenStr += s[i].toUpperCase(); //increment  what we passed with [i] and return uppercase string
+            evenStr += s[i].toUpperCase();
         } else {
             evenStr += s[i]
         }
