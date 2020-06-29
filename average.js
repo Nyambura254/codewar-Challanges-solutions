@@ -5,4 +5,4 @@ function avg(array) { //initialization
     let sum = array.reduce((a, b) => a + b); //after we pass a and b,we sum
     return sum / array.length; //our sum we divide by length of numbers passed
 }
-console.log(avg([2, 4, 1, 5]));
+console.log(avg([2, 4, 1, 5])); //length is 4
