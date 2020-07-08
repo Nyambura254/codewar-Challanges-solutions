@@ -13,4 +13,4 @@ function solution(number) { //initializations
     }
     return sum;
 }
-console.log(solution(20)); //3,5,6,9,10,12,12,18
+console.log(solution(20)); //3,5,6,9,10,12,12,18=78
