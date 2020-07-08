@@ -8,7 +8,7 @@ function solution(number) { //initializations
     sum = 0; //start at zero
     for (i = 3; i < number; i++) { //set-up,comparison and change
         if (i % 3 === 0 || i % 5 === 0) { //if i is divisible by 3 or i is divisible by 5
-            sum += i;
+            sum += i; //increment i
         }
     }
     return sum;
